@@ -1,7 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-const primaryGradientColor =
-    LinearGradient(colors: [Color(0xFFED3A42), Color(0xFF7B060B)]);
+const primaryGradientColor = LinearGradient(
+    colors: [Color(0xFFED3A42), Color(0xFF7B060B)],
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight);
 const secondaryColor = Color(0xFFFED409);
 
 const backgroundPrimaryColor = Color(0xFFEEEEEE);
